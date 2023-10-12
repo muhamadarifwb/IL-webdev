@@ -351,6 +351,7 @@ a{
 
 .main-5{
   display: flex;
+  
   position: relative;
   align-items: center;
   max-width: 100%;
@@ -368,11 +369,13 @@ a{
 }
 
 .main-5 .container{
-  width: 40%;
+  flex-direction: column;
+  width: 30%;
   height: auto;
   text-align: justify;
   position: relative;
-  top: 25%;
+  padding: 20px;
+  top: 10%;
   left: 25%;
 }
 .main-5 h1{
@@ -399,6 +402,7 @@ a{
   flex-shrink: 0;
   border-radius: 1.875rem;
   color: #FFF;
+
 }
 
 /* END Section Home Style */
@@ -520,7 +524,100 @@ img {
 /* End Blog Style */
 
 
+/* Start Section Login Style */
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/assets/img/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52.8125rem;
+  height: 30.9375rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: url("/assets/img/bg.png") lightgray 50% / cover no-repeat;
+  border: #333;
+}
 
+.wrapper
+{
+  width: 18.1875rem;
+  height: 23.75rem;
+  border-radius: 0.625rem;
+  border: 1px solid #FFF;
+  background: rgba(217, 217, 217, 0.08);
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px 25px;
+}
+
+.wrapper h1
+{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box
+{
+  width: 12.4375rem;
+  height: 2.25rem;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input-box {margin: 10px;} input
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0.625rem;
+    border: 1px solid #FFF;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 40px 20px 20px;
+}
+
+.input-box input::placeholder
+{color: #fff}
+
+.input-box i 
+{
+    position: absolute;
+    right: 20px;
+    top : 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .btn
+{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+/* End Section Login */
 
 @keyframes slideInLeft {
   from {
