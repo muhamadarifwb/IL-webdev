@@ -22,11 +22,10 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
     position: sticky;
     height: auto;
     top: 0;
-    background: transparent;
+
     box-shadow: 2px 2px 12px transparent;
     padding: 0px 5%;
     transition: .3s;
@@ -53,12 +52,14 @@ a{
 }
 
 .logo1 {
-    font-family: 'Urbanist';
-    letter-spacing: 3px;
-    font-size: 3.125rem;
-    color: #7DBFFD;
-    margin-left: 50px;
-    text-decoration: none;
+  font-family: 'Urbanist';
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #7DBFFD;
+  margin-left: 50px;
+  text-decoration: none;
 }
 
 /* End navibar Style */
@@ -118,7 +119,7 @@ a{
     left: 80%;
     top: 10%;
     transform: translateX(-70%);
-    z-index: 1;
+    z-index: 6;
     background-color: transparent;
 }
 /* LINKKARAN 3D */
@@ -177,7 +178,7 @@ a{
   top: 55%;
   left: 77%;
   transform: translate(-50%, -50%);
-  z-index: 6;
+  z-index: 2;
 }
 
 /* home-2 */
@@ -202,7 +203,7 @@ a{
 }
 
 .main-2 img{
-  width: 41.875rem;
+  width: 25rem;
   height: 25rem;
 }
 
@@ -221,14 +222,16 @@ a{
 #home-3{
   display: flex;
   flex-direction: column;
-  background-color: #486FCE;
+  background-color: #FFF;
   height: 45rem;
   color: white;
   justify-content: space-around;
+  
 }
 
 .main-3{
   display: flex;
+  
   position: relative;
   align-items: center;
   max-width: 100%;
@@ -241,33 +244,34 @@ a{
   width: 27rem;
   height: 18rem;
   position: absolute;
-  right: 45%;
-  top: 10%;
-  transform: translateX(-70%);
+  right: 65%;
+  top: 0%;
 }
 
 .main-3 .container{
-    width: 30%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    top: 25%;
-    left: 25%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  text-align: justify;
+  position: relative;
+  padding: 0;
+  left: 25%;
 }
 
 
 .main-3 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.2;
-  color: #ffffff;
+  line-height: normal;
+  color: #7DBFFD;
   text-align: left;
+
 }
 
 .main-3 p {
   font-size: 24px;
-  margin: 25px 0px 25px;
-  color: #ffffff;
+  color: #7DBFFD;
   text-align: left;
   font-weight: 700;
 }
@@ -275,9 +279,22 @@ a{
 .main-3 a{
   width: 10.3125rem;
   height: 2.5625rem;
-  flex-shrink: 0;
   border-radius: 1.875rem;
+  background: #7DBFFD;
   color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Urbanist';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 
@@ -285,7 +302,7 @@ a{
 #home-4{
   display: flex;
   flex-direction: column;
-  background-color: #BEE3FE;
+  background-color: #FFF;
   height: 45rem;
   color: white;
   justify-content: space-around;
@@ -302,48 +319,67 @@ a{
 }
 
 .main-4 img{
-  width: 26.0625rem;
-  height: 24rem;
+  width: 23.75rem;
+  height: 21.875rem;
   position: absolute;
   left: 65%;
   top: 0%;
 }
 
 .main-4 .container{
-  width: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   height: auto;
   text-align: center;
   position: relative;
-  top: 25%;
   right: 25%;
 }
 .main-4 h1{
+  width: 29.5625rem;
+  height: 2.625rem;
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.2;
-  color: #486FCE;
+  line-height: normal;
+  color: #7DBFFD;
 }
 
 .main-4 p {
   font-size: 24px;
+  width: 29.5625rem;
+  height: 6rem;
   margin: 25px 0px 25px;
   font-weight: 700;
-  color: #486FCE;
+  color: #7DBFFD;
+  text-align: left;
 }
 
 .main-4 a{
   width: 10.3125rem;
   height: 2.5625rem;
-  flex-shrink: 0;
   border-radius: 1.875rem;
+  background: #7DBFFD;
   color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Urbanist';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  left: 40%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 /* Main-5 */
 #home-5{
   display: flex;
   flex-direction: column;
-  background-color: #CFC7F6;
+  background-color: #fff;
   height: 45rem;
   color: white;
   justify-content: space-around;
@@ -351,7 +387,6 @@ a{
 
 .main-5{
   display: flex;
-  
   position: relative;
   align-items: center;
   max-width: 100%;
@@ -361,8 +396,8 @@ a{
 }
 
 .main-5 img{
-  width: 26.0625rem;
-  height: 24rem;
+  width: 25rem;
+  height: 25rem;
   position: absolute;
   right: 65%;
   top: 0%;
@@ -382,7 +417,7 @@ a{
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #fff;
+  color: #7DBFFD;
   text-align: left;
 }
 
@@ -392,18 +427,193 @@ a{
   padding: 10px;
   margin-bottom: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #7DBFFD;
   text-align: left;
 }
 
 .main-5 a{
   width: 10.3125rem;
   height: 2.5625rem;
-  flex-shrink: 0;
   border-radius: 1.875rem;
+  background: #7DBFFD;
   color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Urbanist';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  bottom: 20px;
+  left: 40%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 
 }
+
+/* Start Section Testimoni */
+#testimoni{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  height: 840px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#testimoni h1{
+  color: #7DBFFD;
+  font-family: 'Urbanist';
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0px;
+  
+}
+.main-testi{
+  margin-top: 166px;
+}
+
+.main-testi h1{
+  color: #7DBFFD;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-testi{
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icon-testi{
+  margin: 10px;
+}
+
+.container-testi img{
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  margin: 20px;
+  justify-content: center;
+}
+
+.icon-testi{
+  top: 769px;
+  left: 256px;
+  width: 200px;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-weight: 700;
+  color: #7cbefc;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 7px;
+}
+.large-icon img{
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+
+.main-testi h2{
+  color: #7DBFFD;
+  font-family: 'Urbanist';
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+  }
+
+/* End Section Testimoni */
+
+/* Start Section Prof_trainer Style */
+#prof-trainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  height: auto;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#prof-trainer h1{
+  color: #7DBFFD;
+  font-family: 'Urbanist';
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0px;
+  
+}
+.main-proftrain{
+  margin-top: 166px;
+}
+
+.main-proftrain h1{
+  color: #7DBFFD;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-proftrain{
+  display: flex;
+  margin-top: 103px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icon-proftrain{
+  margin: 10px;
+}
+
+.container-proftrain img{
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  margin: 20px;
+  justify-content: center;
+}
+
+.icon-proftrain{
+  top: 769px;
+  left: 256px;
+  width: 200px;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-weight: 700;
+  color: #7cbefc;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 7px;
+}
+.large-icon img{
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+/* End Section Prof_Trainer Style */
 
 /* END Section Home Style */
 
@@ -416,6 +626,8 @@ a{
     height: 840px;
     color: white;
     text-align: center;
+    justify-content: center;
+    width: 100%;
 }
 .main-about{
   display: flex;
@@ -423,7 +635,6 @@ a{
   position: absolute;
   max-width: 6000px;
   margin: 55px 0px 25px;
-  top: 30%;
   right: 24%;
   font-family: 'Urbanist';
   top: 10%;
@@ -443,7 +654,7 @@ a{
   color: #7DBFFD;
   text-align: center;
   font-feature-settings: 'clig' off, 'liga' off;
-  font-family: Urbanist;
+  font-family: 'Urbanist';
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
@@ -451,21 +662,67 @@ a{
   margin-top: 50px;
 }
 
+.anggota-team{
+  margin-top: 300px;
+}
+
+.anggota-team h1{
+  color: #7DBFFD;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.anggota{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.team{
+  margin: 10px;
+}
+
+.team img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px;
+  justify-content: center;
+}
+
+.team h2{
+  top: 769px;
+  left: 256px;
+  width: 162px;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-weight: 700;
+  color: #7cbefc;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 7px;
+}
+
+/* End Section About Style */
+
 /* Start Section Blog Style */
 
 #blog {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
-  height: 17.375rem;
   flex-shrink: 0;
-  background-color: #7DBFFD;
 }
+
 .main-blog{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #7DBFFD;
+  margin-bottom: 33px;
 }
 
 .main-blog img{
@@ -475,23 +732,24 @@ a{
 }
 .main-blog h1{
   color: #FFF;
-  font-family: Urbanist;
+  font-family: 'Urbanist';
   font-size: 3.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-/* card */
-.container {
+.container-blog {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   max-width: 1200px;
   margin-block: 2rem;
   gap: 2rem;
 }
 
-img {
+.card_header img {
   max-width: 100%;
   display: block;
   object-fit: cover;
@@ -502,27 +760,400 @@ img {
   flex-direction: column;
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
-  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: 1em;
-  background: #ECE9E6;
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-
+  border-radius: 1.875rem;
 }
-
-.card__body {
+.card_body {
+  width: 21.8rem;
+  height: 8.4375rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  justify-content: center;
   gap: .5rem;
+  border-radius: 1.875rem;
+  border: 1px solid rgba(0, 0, 0, 0.10);
 }
 
-.card__body h4 {
+.card_body h4 {
   font-size: 1.5rem;
   text-transform: capitalize;
   text-align: center;
 }
+.card_body h4 a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+/* start Section blog-page Style */
+.main-blog-page{
+  display: flex;
+  flex-direction: row;
+  padding: 25px 50px 75px 100px;
+}
+.main-blog-page .blog-page-img img{
+  width: 30.5rem;
+  height: 36.8125rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1.875rem;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  max-width: 100%;
+  margin-top: 120px;
+}
+.main-blog-page .blog-page-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.blog-page-text h4 {
+  width: 20.3125rem;
+  height: 6.0625rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Urbanist';
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.blog-page-text p {
+  width: 48rem;
+  height: 35rem;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* End Section Blog-Page Style */
+
 /* End Blog Style */
 
+/* Start Section join us Style */
+
+#joinus{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-joinus{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-joinus h1{
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  top: 150px;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-weight: 700;
+  color: #7cbefc;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.container-joinus {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+  margin-top: 10%;
+}
+.card_header_joinus img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card-joinus {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  border-radius: 1.875rem;
+}
+.card_body_joinus {
+  width: 21.8rem;
+  height: 12.4375rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 1.875rem;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.card_body_joinus h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.card_body_joinus h4 a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* Start Modal Joinus */
+
+/* Start Section program-latihan Style */
+
+#program-latihan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.main-program-latihan{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7DBFFD;
+  margin-bottom: 33px;
+}
+
+.main-program-latihan img{
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+}
+.main-program-latihan h1{
+  color: #FFF;
+  font-family: 'Urbanist';
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container-program-latihan {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: left;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+.card_header_proglat img {
+  max-width: 100%;
+  display: block;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.card-proglat {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  border-radius: 1.875rem;
+}
+.card_body_proglat {
+  width: 21.8rem;
+  height: 8.4375rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: .5rem;
+  border-radius: 1.875rem;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.card_body_proglat h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.card_body_proglat h4 a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+/* End Blog Style */
+
+/* Start Program Latihan Day 1 */
+
+.container-day1{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: left;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+.container-day1 h1 {
+  text-align: center;
+}
+
+.rectangle{
+  display: flex;
+  justify-content: space-between;
+  width: 840px;
+  height: 149px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.70);
+}
+
+.rectangle h2{
+  margin-top: 52px;
+  margin-left: 69px;
+  margin-right: 69px;
+  text-align: left;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Urbanist;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+
+
+/* End Program Latihan Day 1 */
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 80%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.modal-content h1 {
+  text-align: center;
+  color: #7DBFFD;
+  font-family: Urbanist;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-modal {
+  width: 300px;
+  margin: 0 auto;
+}
+
+form {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  color: rgba(0, 0, 0, 0.75);
+  text-align: justify;
+  font-family: Urbanist;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+.container-modal button {
+  border-radius: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(125, 191, 253, 0.40);
+  background: #7DBFFD;
+  cursor: pointer;
+}
+
+  
+
+button:hover {
+  background-color: #005b84;
+}
+
+
+/* End Modal JoinUs */
+
+/* End Section JoinUs */
 
 /* Start Section Login Style */
 #login {
@@ -619,6 +1250,83 @@ img {
 
 /* End Section Login */
 
+/* Start Section Footer */
+
+#footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background: #7DBFFD;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 80px 8% 70px;
+  margin-top: 200px;
+}
+.footer-content img {
+  width: 150px;
+}
+
+.footer-content h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+.footer-content li {
+  margin-bottom: 16px;
+  list-style: none;
+}
+.footer-content li a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all .40s ease;
+  text-decoration: none;
+}
+.footer-content li a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: #fff;
+}
+.footer-content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.icons a {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  margin-right: 17px;
+  transition: all .40s ease;
+}
+
+.icons a:hover{
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.footer-bottom {
+  display: block;
+  flex-direction: column;
+  position: absolute;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+/* END Section Footer */
+
+/* Start Animation Home */
+
 @keyframes slideInLeft {
   from {
     transform: translateX(-300px);
@@ -658,3 +1366,5 @@ img {
 
   transform: translateX(-0px);
 }
+
+/* END Animation Home */
