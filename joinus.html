@@ -117,8 +117,6 @@
         </div>
     </section>
 
-    <!-- Modal -->
-  <!-- Trigger/Open The Modal -->
 
 
 <!-- The Modal -->
@@ -147,17 +145,38 @@
 
 </div>
 
-<div id="myModal" class="modal">
+<div id="myModal-metpem" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
       <h1 >Metode Pembanyaran</h1>
-      <div class="container-modal">
-          
+      <div class="container-modal-metpem">
+          <div>
+            <img id="myBtn-success" src="assets/img/metpem-icon1.png" alt="">
+          </div>
+          <div>
+            <img src="assets/img/metpem-icon2.png" alt="">
+          </div>
+          <div>
+            <img src="assets/img/metpem-icon3.png" alt="">
+          </div>
       </div>
     </div>
-  
+  </div>
+
+  <div id="myModal-success" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1 >Success</h1>
+      <div class="container-modal-success">
+          <div>
+            <img src="assets/img/success.png" alt="">
+          </div>
+      </div>
+    </div>
   </div>
 
 <script>
@@ -186,6 +205,57 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// modal MetPem
+var modal_metpem = document.getElementById("myModal-metpem");
+
+var btn = document.getElementById("myBtn-metpem");
+
+// Get the <span> element that closes the modal_metpem
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal_metpem 
+btn.onclick = function() {
+  modal_metpem.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal_metpem
+span.onclick = function() {
+  modal_metpem.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal_metpem, close it
+window.onclick = function(event) {
+  if (event.target == modal_metpem) {
+    modal_metpem.style.display = "none";
+  }
+}
+
+// Mymodal Success
+var modal_success = document.getElementById("myModal-success");
+
+var btn = document.getElementById("myBtn-success");
+
+// Get the <span> element that closes the modal_success
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal_success 
+btn.onclick = function() {
+  modal_success.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal_success
+span.onclick = function() {
+  modal_success.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal_success, close it
+window.onclick = function(event) {
+  if (event.target == modal_success) {
+    modal_success.style.display = "none";
+  }
+}
+
 
 </script>
 

@@ -1144,12 +1144,39 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-  
-
 button:hover {
   background-color: #005b84;
 }
 
+.container-modal-metpem {
+  display: flex;
+  width: 300px;
+  gap: 2rem;
+  margin: 0 auto;
+
+}
+.container-modal-metpem img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: auto;
+}
+
+.container-modal-success {
+  display: flex;
+  width: 300px;
+  gap: 2rem;
+  margin: 0 auto;
+
+}
+.container-modal-success img{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  height: auto;
+}
 
 /* End Modal JoinUs */
 
