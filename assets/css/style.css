@@ -1114,7 +1114,7 @@ select {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 1.25rem;
-  border: 1px solid rgba(0, 0, 0, 0.20);
+  border: 1px solid rgb(243, 243, 243);
   color: rgba(0, 0, 0, 0.75);
   text-align: justify;
   font-family: Urbanist;
@@ -1201,14 +1201,14 @@ button:hover {
   flex-shrink: 0;
   border-radius: 1.25rem;
   background: url("/assets/img/bg.png") lightgray 50% / cover no-repeat;
-  border: #333;
+  border: #ffffff;
 }
 
 .wrapper
 {
   width: 18.1875rem;
   height: 23.75rem;
-  border-radius: 0.625rem;
+  border-radius: 1.25rem;
   border: 1px solid #FFF;
   background: rgba(217, 217, 217, 0.08);
   color: #fff;
@@ -1240,7 +1240,7 @@ button:hover {
     background: transparent;
     border: none;
     outline: none;
-    border-radius: 0.625rem;
+    border-radius: 1.25rem;
     border: 1px solid #FFF;
     font-size: 16px;
     color: #fff;
@@ -1266,14 +1266,40 @@ button:hover {
     background: #fff;
     border: 0;
     outline: none;
-    border-radius: 45px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-size: 16px;
     color: #333;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 15px;
 }
+
+
+/* Start Section Registrasi */
+
+#registrasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/assets/img/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-registrasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52.8125rem;
+  height: 30.9375rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: url("/assets/img/bg.png") lightgray 50% / cover no-repeat;
+  border: #ffffff;
+}
+
+
 
 /* End Section Login */
 

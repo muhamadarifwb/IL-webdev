@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registrasi</title>
     <link rel="icon" href="assets/img/D.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,12 +26,12 @@
         </ul>
     </nav>
     
-    <section id="login">
-        <div class="main-login">
+    <section id="registrasi">
+        <div class="main-registrasi">
             <div class="wrapper">
                 <form action="">
-                    <h1>Login</h1>
-                <div class="input-box" style="border-color: white;">
+                    <h1>Registrasi</h1>
+                <div class="input-box">
                     <input type="text" placeholder="Username" required>
                     <i class='bx bxs-user'></i>
                 </div>
@@ -39,11 +39,12 @@
                     <input type="password" placeholder="Password" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
-                
-                <button type="submit" onclick="location.href = 'program_latihan.html';" class="btn">Login</button>
-
-                <a href="registrasi.html" style="display: flex; flex-direction: column; text-align: center; color: white;">Registrasi</a>
-            </form>
+                <div class="input-box">
+                    <input type="password" placeholder="Confirm Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" onclick="location.href = 'login.html';" class="btn">Daftar</button>
+                </form>
             </div>
         </div>
     </section>
