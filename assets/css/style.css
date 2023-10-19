@@ -1114,7 +1114,7 @@ select {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 1.25rem;
-  border: 1px solid rgb(243, 243, 243);
+  /* border: 1px solid rgb(243, 243, 243); */
   color: rgba(0, 0, 0, 0.75);
   text-align: justify;
   font-family: Urbanist;
@@ -1122,7 +1122,6 @@ select {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-
 }
 
 input[type="radio"] {
@@ -1241,7 +1240,7 @@ button:hover {
     border: none;
     outline: none;
     border-radius: 1.25rem;
-    border: 1px solid #FFF;
+    border: 1px solid rgb(243, 243, 243);
     font-size: 16px;
     color: #fff;
     padding: 20px 40px 20px 20px;
